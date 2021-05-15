@@ -7,9 +7,11 @@ The numbers can be written to the tiles or right clicked to place the next numbe
 
 Green tile means the next number can be placed there. Red tile indicates a dead tile. Dead tiles have two or less possible connections and not moving to that tile means it will become a dead end. Yellow tile is the current highest tile. Blue coloring is purely visual.
 
-Arguments:
---g	Grid size.
---t	Tile size.
---a	Enable automatic numbering of tiles when there is only one possibility.
-
 Example solutions for 5x5-10x10 grids are included.
+
+### Arguments:
+--g	  Grid size
+
+--t	  Tile size
+
+--a  	Enable automatic numbering of tiles when there is only one possibility
